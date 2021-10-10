@@ -104,7 +104,7 @@ if __name__=='__main__':
     # Creating graph given in the above diagram.
     # add_edge function takes adjacency list, source
     # and destination vertex as argument and forms
-    # an edge between them.
+    # an edge between them..
     print("Enter vertices to connect. \n##Vertex index starts with 0")
     while 1:
             add_edge(adj, int(input("Enter first vertex index: \n")), int(input("Enter second vertex index: \n")))
